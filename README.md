@@ -15,6 +15,11 @@ This repository contains a SwiftUI project that demonstrates how to integrate AR
 ## Technical Details
 This project was built with SwiftUI and ARKit, two Apple technologies that make it easy to create modern, immersive interfaces for iOS. ARKit handles camera tracking and surface detection, while SwiftUI makes building the user interface simple and responsive.
 
+📂 Project Structure
+- ARViewContainer: Manages the AR view and integrates the 3D image, using ARKit to detect surfaces and position the object.
+- SwiftUI Views: SwiftUI views present information and control the UI, allowing the user to interact with the AR scene.
+- ARSession Management: Configures and manages the AR session, including surface detection options and motion tracking.
+
 
 🛠 Tech stack
 
